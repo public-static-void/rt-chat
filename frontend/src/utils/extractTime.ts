@@ -1,8 +1,5 @@
 export function extractTime(dateString: string) {
   const now_date = new Date();
-  const now_hours = padZero(now_date.getHours());
-  const now_minutes = padZero(now_date.getMinutes());
-  const now_weekday = now_date.toLocaleDateString("en-US", { weekday: "long" });
   const now_day = now_date.getDate();
   const now_month = now_date.toLocaleDateString("en-US", { month: "long" });
   const now_year = now_date.toLocaleDateString("en-US", { year: "numeric" });
