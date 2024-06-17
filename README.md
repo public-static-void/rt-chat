@@ -3,11 +3,7 @@
 ##### Build
 
     npm run build
-    cd frontend
-    npm run build
 
 ##### Run
 
-    npm run dev &
-    cd frontend
-    npm run dev
+    npm start
