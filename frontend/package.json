@@ -16,7 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.4.1",
-    "react-router-dom": "^6.30.4",
+    "react-router-dom": "^7.18.2",
     "socket.io-client": "^4.7.5",
     "zustand": "^4.5.2"
   },
