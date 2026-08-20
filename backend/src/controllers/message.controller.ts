@@ -5,7 +5,7 @@ import { getReceiverSocketId, io } from "../socket/socket.js";
 export const sendMessage = async (req: Request, res: Response) => {
   try {
     const { message } = req.body;
-    const { id: receiverId } = req.params;
+    const { id: receiverId } = req.params as { id: string };
     const senderId = req.user.id;
     let conversation = await prisma.conversation.findFirst({
       where: {
@@ -61,7 +61,7 @@ export const sendMessage = async (req: Request, res: Response) => {
 
 export const getMessages = async (req: Request, res: Response) => {
   try {
-    const { id: userToChatId } = req.params;
+    const { id: userToChatId } = req.params as { id: string };
     const senderId = req.user.id;
     const conversation = await prisma.conversation.findFirst({
       where: {
