@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAuthContext } from "../context/AuthContext";
+import { useAuthContext } from "../context/useAuthContext";
 import toast from "react-hot-toast";
 
 type SignupInputs = {

@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint .",
+    "lint": "oxlint .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -24,14 +24,10 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@typescript-eslint/eslint-plugin": "^8.0.0",
-    "@typescript-eslint/parser": "^8.0.0",
     "@vitejs/plugin-react": "^6.0.2",
     "daisyui": "^5.7.50",
-    "eslint": "^9.0.0",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
     "lucide-react": "^1.33.0",
+    "oxlint": "^1.90.0",
     "postcss": "^8.5.24",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.8.0",
